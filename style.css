@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(./img/img01.jpg) center no-repeat;
+  transition: all .25s;
+  color: #a39241;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  border: 1px solid #3b3516;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: rgba(237, 223, 205, 0.5);
+  cursor: pointer;
+  outline: none;
+  color:#3b3516;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: 'Bad Script', cursive;
+} 
+
+h1, h3 {
+  animation: down 0.25s;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
